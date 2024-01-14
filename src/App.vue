@@ -17,6 +17,11 @@ import OutputGroup from './components/outputGroup/OutputGroup.vue';
 </template>
 
 <style scoped>
+.app {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
 .content {
   display: flex;
   justify-content: space-around;
